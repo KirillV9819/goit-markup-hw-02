@@ -1,0 +1,32 @@
+.nav-menu-list, .contacts-list, .features-list, .services-list, .team-list, .adress-list{
+    list-style: none;
+}
+.menu-link,.contact-link,.map-link,.logo{
+    text-decoration: none;
+}
+/* Header */
+.menu-link{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.contact-link{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+.logo{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+}
