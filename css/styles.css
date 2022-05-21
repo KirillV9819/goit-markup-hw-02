@@ -1,3 +1,10 @@
+:root{
+    --primary-font-family: 'Roboto',
+        sans-serif;
+    --secondary-font-family: 'Raleway',
+        sans-serif;
+    --accent-color: #2196F3;
+}
 .nav-menu-list, .contacts-list, .features-list, .services-list, .team-list, .address-list{
     list-style: none;
 }
@@ -5,7 +12,7 @@
     text-decoration: none;
 }
 .body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font-family)
 }
 /* Header */
 .menu-link{
@@ -19,7 +26,7 @@
 }
 .menu-link:hover,
 .menu-link:focus{
-        color: #2196F3;
+    color: var(--accent-color);
 }
 .contact-link{
     font-family: 'Roboto', sans-serif;
@@ -31,7 +38,7 @@
 }
 .contact-link:hover,
 .contact-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -51,7 +58,7 @@
     text-transform: uppercase;
     /* color: #FFFFFF; */
 }
-.hero-button{
+.hero-button-text{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -60,11 +67,19 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    /*  color: #FFFFFF */
+    color: #FFFFFF
+}
+.hero-button{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 .hero-button:hover
 .hero-button:focus{
-    background-color: #188CE8;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 /* Our Features */
 
@@ -141,5 +156,5 @@
 }
 .address-link:hover,
 .address-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
