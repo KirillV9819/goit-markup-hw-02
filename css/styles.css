@@ -18,7 +18,8 @@
     text-decoration: none;
 }
 .body{
-    font-family: var(--primary-font-family)
+    font-family: var(--primary-font-family);
+    background-color: var(--primary-background-color);
 }
 /* Header */
 .menu-link{
@@ -76,6 +77,7 @@
     color: var(--primary-title-color)
 }
 .hero-button{
+    font-family: inherit;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
