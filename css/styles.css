@@ -19,9 +19,12 @@
 }
 .body{
     font-family: var(--primary-font-family);
-    /* background-color: var(--primary-background-color); */
+    background-color: var(--primary-title-color);
 }
 /* Header */
+.header{
+    background-color: var(--primary-title-color);
+}
 .menu-link{
     font-weight: 500;
     font-size: 14px;
@@ -124,6 +127,9 @@
     
 }
 /*Team Title*/
+.team{
+    background: var(--secondary-backgroud-color);
+}
 .team-title{
     font-weight: 700;
     font-size: 36px;
