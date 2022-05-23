@@ -19,7 +19,7 @@
 }
 .body{
     font-family: var(--primary-font-family);
-    background-color: var(--primary-background-color);
+    /* background-color: var(--primary-background-color); */
 }
 /* Header */
 .menu-link{
@@ -48,11 +48,15 @@
     color: var(--accent-color)
 }
 .logo{
-    font-family: var(--secondary-font-family)
+    color: #000000;
+    font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+.web {
+    color: var(--accent-color);
 }
 /* main content */
 /* HERO */
@@ -145,7 +149,7 @@
     color: var(--secondary-text-color);
 }
 /* Footer */
-.logo{
+.logo-footer{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
