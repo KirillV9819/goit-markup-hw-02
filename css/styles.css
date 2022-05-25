@@ -10,6 +10,24 @@
     --primary-backgroud-color: #F5F4FA;
     --footer-hero-background-color:#2F303A;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
 .list{
     list-style: none;
 }
@@ -19,6 +37,7 @@
 .body{
     font-family: var(--primary-font-family);
     background-color: var(--primary-title-color);
+    box-sizing: border-box;
 }
 /* Header */
 .header{
