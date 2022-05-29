@@ -161,14 +161,13 @@ img{
 }
 .features-list{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.features-list-item:not(:nth-child(4n)){
+    margin-right: 30px;
 }
 .features-list-item{
-    width: 270px;
-    height: 101px;
-}
-.features-list-item:not(:last-child){
-    margin-right: 30px;
+    flex-basis: calc((100% - 120px) / 4);
 }
 .features-list-item-title{
     font-weight: 700;
@@ -193,10 +192,17 @@ img{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.66;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    
+    margin-bottom: 50px;
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-list-item:not(:nth-child(3n)){
+    margin-right: 30px;
 }
 /*Team Title*/
 .team{
@@ -212,6 +218,19 @@ img{
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-list-item:not(:nth-child(4n)){
+  margin-right: 30px;
+}
+.team-list-item {
+    flex-basis: calc((100% - 120px) / 4);
+    background-color: var(--primary-title-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team-list-item-name{
     font-weight: 500;
     font-size: 16px;
@@ -219,6 +238,7 @@ img{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 .team-list-item-orientation{
     font-size: 16px;
@@ -227,7 +247,15 @@ img{
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+.team-card-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* Footer */
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .logo-footer{
     font-family: 'Raleway';
     font-weight: 700;
@@ -242,11 +270,15 @@ img{
     letter-spacing: 0.03em;
     color: var(--primary-title-color)
 }
+.address-list{
+    margin-top: 20px;
+}
 .address-link{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 .address-link:hover,
 .address-link:focus{
